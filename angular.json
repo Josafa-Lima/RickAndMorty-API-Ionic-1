@@ -36,6 +36,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/RickAndMorty-API-Ionic-1/"
               "budgets": [
                 {
                   "type": "initial",
