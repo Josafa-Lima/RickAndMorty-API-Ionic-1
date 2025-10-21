@@ -1,4 +1,4 @@
-Site que faz busca com API, mostrando foto, nome e raça dos personagens. Podendo ser usado também em sites de e-commerce, para mostrar foto, nome, categorias, preços e promoções de produtos.
+Site que faz busca com API, mostrando foto, nome e raça dos personagens. Podendo ser usado também em sites de e-commerce, para mostrar foto, nome, categorias, preços e promoções de produtos, seja ele em dispositivos desktop ou móveis.
 
 Uso de:
 
