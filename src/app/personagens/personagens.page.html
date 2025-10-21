@@ -1,0 +1,35 @@
+<ion-header>
+  <Header></Header>
+</ion-header>
+
+
+<ion-content>
+<div class="procurar">
+<ion-input type="text" placeholder="Personagens" (keyup.enter) = "onCLick($event)" class="procurar1" hightlight>
+  {{"Pesquise aqui o nome do seu personagem"}}
+</ion-input>
+<ion-input type="text" placeholder="Status" (keyup.enter) = "onCLick1($event)" class="procurar1" hightlight>
+  Pesquise aqui o status do seu personagem
+</ion-input>
+<ion-input type="text" placeholder="Espécie" (keyup.enter) = "onCLick2($event)" class="procurar1" hightlight>
+  Pesquise aqui a espécie do seu personagem
+</ion-input>
+</div>
+ 
+
+<div  *ngIf="personagens"  class="a" >
+ 
+  <div *ngFor="let personagem of personagens " class="container1" id="character-container1" hightlight slide>
+   
+    <div clas="name"><div class="name1"> {{ personagem?.name | slice:0:24}} </div></div>
+    
+    <img src="{{personagem?.image }}">
+    
+    <div class="info">{{personagem?.species}} | {{personagem?.status}}</div>
+    
+   
+  </div>
+</div>
+<Footer></Footer>
+</ion-content>
+  

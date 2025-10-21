@@ -1,0 +1,47 @@
+
+<div id="footer_content">
+  <div id="footer_contacts">
+      <h1>Projeto Mobile AV2</h1>
+      <p>Projeto Ionic/Angular.</p>
+
+      <div id="footer_social_media">
+          <a href="https://www.instagram.com" class="footer-link" id="insta1">
+            <img src="assets/Insta.png" class="tamanho"> </a>
+              
+         
+
+          <a href="https://br.linkedin.com" class="footer-link" id="insta1">
+              <img src="assets/Linkedin.png" class="tamanho"> </a>
+              
+         
+
+          <a href="https://web.whatsapp.com" class="footer-link" id="insta1"><img
+                  src="assets/Zap.png" class="tamanho"> </a>
+              
+         
+      </div>
+  </div>
+
+  <div id="footer_subscribe">
+      <h3>Inscreva-se</h3>
+      <p>Insira o seu e-mail para ser notificado sobre novidades da série.</p>
+
+      <div id="input_group">
+        <ion-item class="email3">
+          <ion-label position="floating">Digite seu email aqui.</ion-label>
+          <ion-input 
+          type="text "
+          [value]="texto | low"
+          (ionInput)="mostrarAlerta($event)"
+          (keyup.enter)="mostrarAlerta1()"
+        ></ion-input>
+        </ion-item>
+          
+      </div>
+  </div>
+</div>
+
+<div id="footer_copyright">
+  <p> 2024 all rights reserved
+</p>
+</div>

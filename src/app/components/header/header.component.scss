@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: 120px;
+  top: 0px;
+  color: black;
+  background-color: #11B4D7;
+  padding: 15px 15px 15px 15px;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 4;
+}
+#foto1:hover {
+  transform: rotate(360deg);
+}
+.navCard {
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  text-align: center;
+  
+  color: black;
+  font-size: min(25px, 3.7vw);
+}
+#foto1 {
+  max-width: 300px;
+  min-width: 50px;
+  max-height: 100px;
+  min-height: 50px;
+  transition: transform 0.5s;
+}
+@media only screen and (max-width: 600px) {
+
+  .card,
+  header,
+  #botao1,
+  .titulo,
+  .txt,
+  .navCard {
+    width: 50%;
+  }
+}
+
+
+@media screen and (min-width: 50px) {
+
+  .card,
+  header,
+  #botao1,
+  .titulo,
+  .txt,
+  .navCard {
+    width: 100%;
+  }
+}

@@ -1,0 +1,144 @@
+h1{
+  color: black;
+}
+
+.Parte2 {
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px 50px  50px;
+  color: black;
+  text-align: center;
+  background-color: #86C444;
+  
+}
+  .txt {
+    font-size: min(20px, 2.7vw);
+    background-color: #86C444;
+  
+
+ 
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: white;
+  }
+  #foto1 {
+    width: 400px;
+    height: 500px;
+    padding: 50px 0px 50px 0px;
+    color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+  }
+  .card {
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    align-items: stretch;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  .card div {
+    flex: 1 1 300px;
+  }
+.card-container {
+  display: flex;
+  grid-template-columns: 350px 350px 350px;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: max(25px, 5vw);
+  position: center;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+ 
+}
+
+.card-container div {
+  flex: 1 1 250px;
+}
+.title1 {
+  color: grey;
+  font-size: min(18px, 10vw);
+}
+
+.p1{
+  color: black;
+  font-size: min(25px, 10vw);
+}
+
+.Parte3 {
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px 50px  50px;
+  color: black;
+  text-align: center;
+}
+.info{
+  color: black;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  
+  padding-top: 30px;
+ padding-bottom: 60px;
+ font-size: 50px;
+  font-weight: bold;
+}
+.portal {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+}
+.txt2 {
+ 
+  color: black;
+    font-size: min(20px, 2.8vw);
+
+
+}
+.a1{
+  color: black;
+}
+@media only screen and (max-width: 1200px) {
+
+  .card,
+  header,
+  #botao1,
+  .titulo,
+  .txt,
+  .navCard,
+  
+  #foto {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 50px) {
+
+  .card,
+  header,
+  #botao1,
+  .titulo,
+  .txt,
+  .navCard,
+  
+  #foto {
+    width: 100%;
+  }
+}

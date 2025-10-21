@@ -1,0 +1,107 @@
+
+.procurar{
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  display: flex;
+ padding-left: 20px;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  padding-right: 20px;
+  gap: 20px;
+  z-index: 4;
+}
+.procurar1{
+  color: black;
+  font-size: min(20px, 3.2vw);
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.4);
+  
+}
+
+.name1{
+max-width: 100%; 
+overflow: hidden; 
+text-overflow: ellipsis; 
+white-space: nowrap;
+font-size: min(20px, 3.8vw);
+}
+.info {
+  padding-top: 20px;
+  color: black;
+  font-size: min(20px, 10vw);
+}
+.container1 {
+
+box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.4);
+  max-width: 250px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  text-align: center; 
+
+  font-size: min(30px, 3.8vw);
+  color: black;
+  background-color: white;
+}
+
+.a{
+display: flex;
+grid-template-columns: 350px 350px 350px;
+gap: 30px;
+align-items: center;
+flex-wrap: wrap;
+
+position: center;
+
+padding-top: 10px;
+padding-bottom: 30px;
+background-color: white;
+}
+@media only screen and (max-width: 1200px) {
+
+.card,
+
+#botao1,
+.titulo,
+.txt,
+
+.procurar1,
+.info,
+.name,
+
+.procurar,
+.procurar1 {
+  width: 50%;
+}
+}
+@media screen and (min-width: 50px) {
+
+.card,
+
+#botao1,
+.titulo,
+.txt,
+
+.procurar1,
+.info,
+
+#foto,
+.procurar,
+.procurar1 {
+  width: 100%;
+}
+}
+
+

@@ -1,0 +1,164 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: white;
+   
+
+  }
+  
+  .card-container {
+    display: flex;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: max(25px, 5vw);
+    position: center;
+    
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+   
+  }
+  
+  .card-container div {
+    flex: 1 1 250px;
+  }
+ 
+  .Parte1 {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 50px 0px;
+  
+  
+    color: black;
+    text-align: center;
+  
+   
+  }
+  
+  .Parte1 div {
+    flex: 1 1 300px;
+  }
+  
+  
+  .titulo {
+    font-size: min(50px, 10vw);
+    font-weight: bold;
+  
+  }
+  
+  .txt {
+    font-size: min(30px, 10vw);
+    font-weight: bold;
+  
+  }
+  .name{
+    color: black;
+    font-size: min(25px, 8vw);
+
+  }
+  .card {
+    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    height: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    align-items: stretch;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+  
+  
+  }
+  
+  .card div {
+    flex: 1 1 300px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: min(18px, 10vw);
+    padding: 10px;
+  }
+  
+  #botao1 {
+    border: none;
+    outline: 0;
+    display: flex;
+    padding: 8px;
+    
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.747);
+    z-index: 3;
+  
+  }
+  #botao1:hover,
+  a:hover {
+    opacity: 0.8;
+  }
+  #botao {
+    background-color: black;
+    color: white;
+    
+    align-items: center;
+  
+    cursor: pointer;
+    font-size: min(16px, 10vw);
+  
+  
+  }
+  
+  .img1 {
+    width: 42px;
+    height: 42px;
+  }
+  
+  
+  
+.p1{
+    color: black;
+    font-size: min(25px, 10vw);
+  }
+  @media only screen and (max-width: 600px) {
+
+    .card,
+   
+    #botao1,
+    .titulo,
+    .txt,
+    
+    .card-container,
+    .p1,
+    .name,
+    .img2 {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (min-width: 50px) {
+  
+    .card,
+   
+    #botao1,
+    .titulo,
+    .txt,
+    
+    .card-container,
+    .p1,
+    .name,
+    .img2{
+      width: 100%;
+    }
+  }
+  
+  
